@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Montserrat:wght@300&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
@@ -8,6 +10,7 @@ nav a {
     background-color: #05668d;
     color: #02c39a;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1, #hero-msg h4 {
@@ -32,7 +35,15 @@ main section {
 }
 
 body {
+    font-family: Montserrat, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
     background-color: #028090;
+}
+
+h2 {
+    margin: 0;
 }
 
 header {
@@ -46,6 +57,7 @@ nav a:hover {
 
 .book, .join {
     background-color: #02c39a;
+    padding: 15px 30px;
 }
 
 .book:hover, .join:hover {
@@ -53,16 +65,26 @@ nav a:hover {
 }
 
 .msg {
+    line-height: 1.5em;
     background-color: #00a896;
+    padding: 35px;
 }
 
 footer {
     background-color: #00a896;
+    padding: 25px 50px;
+}
+
+footer .social img {
+    padding-top: 15px;
 }
 
 .home-title {
+    font-family: "Comfortaa";
+    font-size: 2em;
     background-color: #028090;
     color: black;
+    margin-top: 10px;
 } 
 
 h4 {
@@ -71,19 +93,23 @@ h4 {
 }
 
 .book, .join {
+    font-size: 18px;
     background-color: #00a896;
     color: white;
     text-decoration: none;
 }
 
 .msg h2 {
+    font-family: "Comfortaa";
     background-color: #00a896;
     color: black;
 }
 
 .msg p {
+    font-size: 0.8em;
     background-color: #00a896;
     color: black;
+    padding: 25px 50px;
 }
 
 footer h3 {
@@ -104,11 +130,16 @@ footer a:hover {
 }
 
 .logo {
-    width: 80px;
+    width: 100px;
+}
+
+#logo_link {
+    padding-top: 5px;
 }
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img {

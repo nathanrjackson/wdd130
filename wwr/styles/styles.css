@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa&family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Syne+Tactile&display=swap');
 
 #content {
     max-width: 1600px;
@@ -7,12 +7,12 @@
 
 nav a {
     text-align: center;
-    background-color: #05668d;
-    color: #02c39a;
+    background-color: rgba(30, 40, 30, 0.5);
+    color: rgb(200, 200, 200);
     text-decoration: none;
     padding-top: 24px;
-    padding-right: 115px;
-    padding-left: 115px;
+    padding-right: 116px;
+    padding-left: 116px;
 }
 
 nav {
@@ -61,7 +61,7 @@ main section {
 
 #background {
     height: 725px;
-    background-color: #05668d;
+    background-color: rgb(80, 200, 255);
 }
 
 body {
@@ -69,7 +69,7 @@ body {
     font-size: 22px;
     margin: 0;
     padding: 0;
-    background-color: #028090;
+    background-color: rgb(212, 231, 240);
 }
 
 h2 {
@@ -77,14 +77,14 @@ h2 {
 }
 
 header {
-    background-color: #05668d;
+    background-color: rgba(30, 40, 30, 0.5);
     display: grid;
     grid-template-columns: 150px auto;
 }
 
 nav a:hover {
-    background-color: #02c39a;
-    color: black; 
+    background-color: rgba(61, 87, 61, 0.5);
+    color: rgb(150, 150, 150); 
     text-decoration: none;
 }
 
@@ -94,12 +94,14 @@ nav a:hover {
 }
 
 .book:hover, .join:hover {
-    background-color: #028090;
+    color:rgb(56, 64, 68);
+    background-color: rgb(135, 220, 255);
+    text-decoration: none;
 }
 
 .msg {
     line-height: 1.5em;
-    background-color: #00a896;
+    background-color: rgb(40, 180, 185);
     padding: 35px;
     grid-column: 6/10;
     grid-row: 6/7;
@@ -108,7 +110,7 @@ nav a:hover {
 }
 
 footer {
-    background-color: #00a896;
+    background-color: rgb(40, 180, 185);
     padding: 25px 50px;
     margin-top: 200px;
     display: flex;
@@ -121,10 +123,10 @@ footer .social img {
 }
 
 .home-title {
-    font-family: "Comfortaa", Helvetica, sans-serif;
-    font-size: 2em;
-    color: white;
-    margin-top: 10px;
+    font-family: "Syne Tactile", Helvetica, sans-serif;
+    font-size: 75px;
+    color: rgb(80, 200, 255);
+    margin-top: 15px;
 } 
 
 h4 {
@@ -132,42 +134,45 @@ h4 {
 }
 
 .book, .join {
-    font-size: 18px;
-    background-color: #05668d;
-    color: white;
+    font-size: 24px;
+    background-color: rgb(80, 200, 255);
+    color: black;
     text-decoration: none;
     margin-top: 50px;
     border-radius: 5px;
 }
 
 .msg h2 {
-    font-family: "Comfortaa", Helvetica, sans-serif;
-    background-color: #00a896;
+    font-family: "Syne Tactile", Helvetica, sans-serif;
+    background-color: rgb(40, 180, 185);
     color: black;
 }
 
 .msg p {
     font-size: 0.8em;
-    background-color: #00a896;
+    background-color: rgb(40, 180, 185);
     color: black;
     padding: 25px 50px;
 }
 
 footer h3 {
-    background-color: #00a896;
-    color: black;
-    text-decoration: underline;
-}
-
-footer a {
-    background-color: #00a896;
+    background-color: rgb(40, 180, 185);
     color: black;
     text-decoration: none;
 }
 
-footer a:hover {
-    background-color: #028090;
+footer a {
+    background-color: rgb(40, 180, 185);
     color: black;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 25%;
+}
+
+footer a:hover {
+    background-color: rgb(212, 231, 240);
+    color: black;
+    text-decoration: none;
 }
 
 .logo {
@@ -186,6 +191,7 @@ footer a:hover {
 }
 
 #hero-img {
+    background-color: rgb(255, 255, 255);
     width: 100%;
 }
 
@@ -198,7 +204,7 @@ a:hover {
 }
 
 .card-img {
-    border: 10px solid gray;
+    border: 10px solid rgb(80, 200, 255);
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364
 }

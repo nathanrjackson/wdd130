@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    /* border: 1px solid black; */
+}
+
+body {
+    background-color: #F4F1DE;
+}
+
+#logo {
+    width: 250px;
+    margin-left: 595px;
+    margin-top: -35px;
+}
+
+header {
+    display: grid;
+    background-color: rgb(92, 85, 85);
+}
+
+nav a {
+    text-align: center;
+    background-color: #E07A5F;
+    color: white;
+    text-decoration: none;
+    width: 250px;
+    height: 20px;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+#start {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+#start-img {
+    width: 100%;
+    height: 75%;
+}
+
+#start-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 225px;
+    color: white;
+    text-align: center;
+    background-color: rgba(125,125,125,0.4)
+}
+
+#start-box {
+    text-align: center;
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+
+.main-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+}
+
+.stocks {
+    grid-column: 2/4;
+    grid-row: 1/2;
+}
+
+.stocks-title {
+    margin-bottom: 50px;
+    margin-top: -100px;
+    text-align: center;
+}
+
+.diverse {
+    grid-column: 2/4;
+    grid-row: 3/4;
+    display: grid;
+    grid-template-columns: 50px 500px 50px;
+    grid-template-rows: 100px 50px 50px;
+    margin-top: -35px;
+}
+
+.diverse-img {
+    grid-column: 3/4;
+    grid-row: 2/4;
+    margin-left: 105px;
+    margin-top: 12px;
+}
+
+.diverse-title {
+    grid-column: 1/4;
+    grid-row: 1/1;
+    text-align: center;
+    margin-left: 125px;
+}
+
+.diverse-text {
+    grid-column: 1/3;
+    grid-row: 2/4;
+}
+
+.etf {
+    grid-column: 2/4;
+    grid-row: 6/7;
+    display: grid;
+    grid-template-columns: 50px 500px 50px;
+    grid-template-rows: 100px 50px 50px;
+    margin-top: -100px;
+}
+
+.etf-img {
+    grid-column: 3/4;
+    grid-row: 2/4;
+    margin-left: 60px;
+    margin-top: 60px;
+}
+
+.etf-title {
+    grid-column: 1/4;
+    grid-row: 1/1;
+    text-align: center;
+    margin-left: 125px;
+}
+
+.etf-text {
+    grid-column: 1/3;
+    grid-row: 2/4;
+}
+
+footer {
+    background-color: gray;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+h3 {
+    margin-right: 175px;
+    background-color: gray;
+    padding: 25px;
+}

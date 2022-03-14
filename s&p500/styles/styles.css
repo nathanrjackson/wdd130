@@ -1,11 +1,17 @@
+/* All ------------------------------------------------------------------------------------------------- */
+
 * {
     margin: 0;
     /* border: 1px solid black; */
 }
 
-body {
-    background-color: #F4F1DE;
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 auto;
 }
+
+/* Header ---------------------------------------------------------------------------------------------- */
 
 #logo {
     width: 250px;
@@ -33,10 +39,10 @@ nav {
     justify-content: space-around;
 }
 
-#content {
-    max-width: 1600px;
-    margin: 0 auto;
-    padding: 0 auto;
+/* Main ------------------------------------------------------------------------------------------------ */
+
+body {
+    background-color: #F4F1DE;
 }
 
 #start {
@@ -137,6 +143,8 @@ nav {
     grid-column: 1/3;
     grid-row: 2/4;
 }
+
+/* Footer ---------------------------------------------------------------------------------------------- */
 
 footer {
     background-color: gray;

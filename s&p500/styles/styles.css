@@ -1,25 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Serif&display=swap');
+
 /* All ------------------------------------------------------------------------------------------------- */
 
 * {
     margin: 0;
-    /* border: 1px solid black; */
 }
 
 #content {
     max-width: 1600px;
     margin: 0 auto;
-    padding: 0 auto;
+    padding: 0;
 }
 
 /* Header ---------------------------------------------------------------------------------------------- */
 
 #logo {
     width: 250px;
-    margin-left: 595px;
-    margin-top: -35px;
+    margin-left: 600px;
 }
 
 header {
+    font-family: 'Noto Serif', Helvetica, serif;
     display: grid;
     background-color: rgb(92, 85, 85);
 }
@@ -27,6 +28,16 @@ header {
 nav a {
     text-align: center;
     background-color: #E07A5F;
+    color: white;
+    text-decoration: none;
+    width: 250px;
+    height: 20px;
+    padding: 20px;
+}
+
+nav a:hover {
+    text-align: center;
+    background-color: #3D405B;
     color: white;
     text-decoration: none;
     width: 250px;
@@ -53,15 +64,18 @@ body {
 #start-img {
     width: 100%;
     height: 75%;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
 }
 
 #start-msg {
+    font-family: 'Noto Serif', Helvetica, serif;
     grid-column: 2/3;
     grid-row: 1/2;
-    margin-top: 225px;
+    margin-top: 200px;
     color: white;
     text-align: center;
-    background-color: rgba(125,125,125,0.4)
+    background-color: rgba(129, 178, 154, 60%);
 }
 
 #start-box {
@@ -80,12 +94,26 @@ body {
 .stocks {
     grid-column: 2/4;
     grid-row: 1/2;
+    padding-bottom: 100px;
+    border-bottom: 2px solid black;
 }
 
 .stocks-title {
+    font-family: 'Noto Serif', Helvetica, serif;
     margin-bottom: 50px;
     margin-top: -100px;
     text-align: center;
+    background-color: #3D405B5f;
+    border: 2px solid black;
+}
+
+.stocks-text {
+    font-family: "Montserrat", Helvetica, sans-serif;
+    background-color: #3D405B5f;
+    border-radius: 50%;
+    padding: 75px;
+    text-align: center;
+    border: 2px solid black;
 }
 
 .diverse {
@@ -94,26 +122,48 @@ body {
     display: grid;
     grid-template-columns: 50px 500px 50px;
     grid-template-rows: 100px 50px 50px;
-    margin-top: -35px;
+    margin-top: -300px;
 }
 
 .diverse-img {
     grid-column: 3/4;
     grid-row: 2/4;
     margin-left: 105px;
-    margin-top: 12px;
+    margin-top: 175px;
+    background-color: #3D405B5f;
+    padding: 5px;
+    border: 2px solid black;
+}
+
+.diverse-img:hover {
+    opacity: .8;
+    transform: scale(1.05);
 }
 
 .diverse-title {
+    font-family: 'Noto Serif', Helvetica, serif;
     grid-column: 1/4;
     grid-row: 1/1;
     text-align: center;
     margin-left: 125px;
+    background-color: #3D405B5f;
+    border: 2px solid black;
+    margin-bottom: 65px;
 }
 
 .diverse-text {
+    font-family: "Montserrat", Helvetica, sans-serif;
     grid-column: 1/3;
     grid-row: 2/4;
+    background-color: #3D405B5f;
+    margin-bottom: -150px;
+    padding-top: 85px;
+    padding-bottom: 475px;
+    border-radius: 50%;
+    padding-right: 75px;
+    padding-left: 75px;
+    text-align: center;
+    border: 2px solid black;
 }
 
 .etf {
@@ -122,41 +172,75 @@ body {
     display: grid;
     grid-template-columns: 50px 500px 50px;
     grid-template-rows: 100px 50px 50px;
-    margin-top: -100px;
+    margin-top: -600px;
 }
 
 .etf-img {
     grid-column: 3/4;
     grid-row: 2/4;
-    margin-left: 60px;
-    margin-top: 60px;
+    margin-left: 100px;
+    margin-top: 250px;
+    background-color: #3D405B5f;
+    padding: 5px;
+    border: 2px solid black;
+}
+
+.etf-img:hover {
+    opacity: .8;
+    transform: scale(1.05);
 }
 
 .etf-title {
+    font-family: 'Noto Serif', Helvetica, serif;
     grid-column: 1/4;
     grid-row: 1/1;
     text-align: center;
     margin-left: 125px;
+    background-color: #3D405B5f;
+    margin-bottom: 65px;
+    border: 2px solid black;
 }
 
 .etf-text {
+    font-family: "Montserrat", Helvetica, sans-serif;
     grid-column: 1/3;
     grid-row: 2/4;
+    background-color: #3D405B5f;
+    width: 400px;
+    margin-bottom: -150px;
+    padding-top: 75px;
+    padding-bottom: 565px;
+    border-radius: 50%;
+    padding-right: 100px;
+    padding-left: 100px;
+    text-align: center;
+    border: 2px solid black;
 }
 
 /* Footer ---------------------------------------------------------------------------------------------- */
 
 footer {
-    background-color: gray;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    margin-top: 200px;
+    background-color: rgb(92, 85, 85);
     display: flex;
     justify-content: space-around;
+    border-top: 2px solid black;
 }
 
 h3 {
     margin-right: 175px;
     background-color: gray;
     padding: 25px;
+    background-color: #E07A5F;
+    color: #F4F1DE;
+    text-decoration: none;
+}
+
+footer a {
+    color: #F4F1DE;
+    text-decoration: none;
+}
+
+h3:hover {
+    background-color: #3D405B;
+    text-decoration: none;
 }

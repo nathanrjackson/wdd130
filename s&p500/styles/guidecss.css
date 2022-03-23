@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Serif&display=swap');
+
+/* All ------------------------------------------------------------------------------------------------- */
+
+* {
+    margin: 0;
+}
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+/* Header ---------------------------------------------------------------------------------------------- */
+
+#logo {
+    width: 250px;
+    margin-left: 600px;
+}
+
+header {
+    font-family: 'Noto Serif', Helvetica, serif;
+    display: grid;
+    background-color: rgb(92, 85, 85);
+}
+
+nav a {
+    text-align: center;
+    background-color: #E07A5F;
+    color: white;
+    text-decoration: none;
+    width: 250px;
+    height: 20px;
+    padding: 20px;
+}
+
+nav a:hover {
+    text-align: center;
+    background-color: #3D405B;
+    color: white;
+    text-decoration: none;
+    width: 250px;
+    height: 20px;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Main ------------------------------------------------------------------------------------------------ */
+
+body {
+    background-color: #F4F1DE;
+}
+
+.main-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 500px);
+}
+
+.main-title {
+    font-family: 'Noto Serif', Helvetica, serif;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.broke {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    padding-left: 25px;
+    margin-top: 75px;
+    padding-top: 15px;
+    padding-right: 25px;
+    padding-bottom: 480px;
+    text-align: center;
+    background-color: rgba(120, 115, 115, 0.20);
+}
+
+.top-broke {
+    font-family: "Montserrat", Helvetica, sans-serif;
+    margin-bottom: 30px;
+}
+
+.broke-list {
+    font-family: "Montserrat", Helvetica, sans-serif;
+    margin-bottom: 30px;
+    text-align: left;
+    padding-left: 160px;
+}
+
+.bottom-broke {
+    font-family: "Montserrat", Helvetica, sans-serif;
+}
+
+.broke-title {
+    font-family: 'Noto Serif', Helvetica, serif;
+    margin-bottom: 25px;
+}
+
+.imgs {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.broke-img-top, .broke-img-bottom, .research-img {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #3D405B5f;
+    padding: 5px;
+    border: 2px solid black;
+}
+
+.broke-img-top:hover, .broke-img-bottom:hover, .research-img:hover {
+    opacity: .8;
+    transform: scale(1.05);
+}
+
+.apply {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    padding-left: 25px;
+    margin-top: 75px;
+    padding-top: 15px;
+    padding-right: 25px;
+    padding-bottom: 480px;
+    text-align: center;
+    background-color: rgba(129, 178, 154, 0.20);
+}
+
+.apply-title {
+    font-family: 'Noto Serif', Helvetica, serif;
+    margin-bottom: 25px;
+}
+
+.apply-text {
+    font-family: "Montserrat", Helvetica, sans-serif;
+}
+
+.research {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    padding-left: 25px;
+    margin-top: 75px;
+    padding-top: 15px;
+    padding-right: 25px;
+    padding-bottom: 480px;
+    text-align: center;
+    background-color: rgba(129, 178, 154, 0.20);
+}
+
+.research-title {
+    font-family: 'Noto Serif', Helvetica, serif;
+    margin-bottom: 25px;
+}
+
+.research-text {
+    font-family: "Montserrat", Helvetica, sans-serif;
+}
+
+.account {
+    grid-column: 3/4;
+    grid-row: 2/3;
+    padding-left: 25px;
+    margin-top: 75px;
+    padding-top: 15px;
+    padding-right: 25px;
+    padding-bottom: 480px;
+    text-align: center;
+    background-color: rgba(120, 115, 115, 0.20);
+}
+
+.account-title {
+    font-family: 'Noto Serif', Helvetica, serif;
+    margin-bottom: 25px;
+}
+
+.account-text {
+    font-family: "Montserrat", Helvetica, sans-serif;
+}
+
+.purchase {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    margin-top: -25px;
+    margin-bottom: 25px;
+    text-align: center;
+    padding-left: 25px;
+    margin-top: 70px;
+    padding-top: 15px;
+    padding-right: 25px;
+    padding-bottom: 50px;
+    text-align: center;
+    background-color: rgba(224, 122, 95, 0.20)
+}
+
+.purchase-title {
+    font-family: 'Noto Serif', Helvetica, serif;
+    margin-bottom: 25px;
+}
+
+.purchase-text {
+    font-family: "Montserrat", Helvetica, sans-serif;
+}
+
+/* Footer ---------------------------------------------------------------------------------------------- */
+
+footer {
+    background-color: rgb(92, 85, 85);
+    display: flex;
+    justify-content: space-around;
+    border-top: 2px solid black;
+}
+
+h3 {
+    margin-right: 175px;
+    background-color: gray;
+    padding: 25px;
+    background-color: #E07A5F;
+    color: #F4F1DE;
+    text-decoration: none;
+}
+
+footer a {
+    color: #F4F1DE;
+    text-decoration: none;
+}
+
+h3:hover {
+    background-color: #3D405B;
+    text-decoration: none;
+}

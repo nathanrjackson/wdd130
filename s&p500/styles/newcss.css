@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Serif&display=swap');
+
+/* All ------------------------------------------------------------------------------------------------- */
+
+* {
+    margin: 0;
+}
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+/* Header ---------------------------------------------------------------------------------------------- */
+
+#logo {
+    width: 250px;
+    
+}
+
+header {
+    font-family: 'Noto Serif', Helvetica, serif;
+    display: grid;
+    background-color: rgb(92, 85, 85);
+    text-align: center;
+}
+
+nav a {
+    text-align: center;
+    background-color: #E07A5F;
+    color: white;
+    text-decoration: none;
+    width: 250px;
+    height: 20px;
+    padding: 20px;
+}
+
+nav a:hover {
+    text-align: center;
+    background-color: #3D405B;
+    color: white;
+    text-decoration: none;
+    width: 250px;
+    height: 20px;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Main ------------------------------------------------------------------------------------------------ */
+
+body {
+    background-color: #F4F1DE;
+}
+
+.main-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+main img {
+    width: 400px;
+    margin: 20px;
+    background-color: #3D405B5f;
+    padding: 5px;
+    border: 2px solid black;
+}
+
+main img:hover {
+    opacity: .8;
+    transform: scale(1.05);
+}
+
+.main-title {
+    font-family: 'Noto Serif', Helvetica, serif;
+    grid-column: 2/5;
+    grid-row: 1/2;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.calc {
+    grid-column: 2/4;
+    grid-row: 2/3;
+    width: 400px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.calc-title {
+    font-family: 'Noto Serif', Helvetica, serif;
+    margin-left: 322px;
+    width: 200px;
+    background-color: rgba(120, 115, 115, 0.20);
+    padding: 10px;
+}
+
+.ci-link {
+    text-decoration: none;
+}
+
+.ci-link:hover {
+    color: black;
+}
+
+.calc-text {
+    font-family: "Montserrat", Helvetica, sans-serif;
+    margin-top: 100px;
+    background-color: rgba(129, 178, 154, 0.20);
+    padding: 40px;
+}
+
+.imgs {
+    margin-top: 290px;
+    grid-column: 4/6;
+    grid-row: 1/6;
+
+}
+
+.perks {
+    grid-column: 2/4;
+    grid-row: 4/5;
+    width: 400px;
+    text-align: center;
+}
+
+.perks-title {
+    font-family: 'Noto Serif', Helvetica, serif;
+    margin-left: 322px;
+    width: 200px;
+    margin-bottom: 200px;
+    background-color: rgba(120, 115, 115, 0.20);
+    padding: 10px;
+}
+
+.perks-text {
+    font-family: "Montserrat", Helvetica, sans-serif;
+    width: 400px;
+    background-color: rgba(129, 178, 154, 0.20);
+    padding: 40px;
+}
+
+.perks-img-top {
+    margin-top: 200px;
+}
+
+/* Footer ---------------------------------------------------------------------------------------------- */
+
+footer {
+    background-color: rgb(92, 85, 85);
+    display: flex;
+    justify-content: space-around;
+    border-top: 2px solid black;
+    margin-top: 100px;
+    text-align: center;
+}
+
+h3 {
+    background-color: gray;
+    padding: 25px;
+    background-color: #E07A5F;
+    color: #F4F1DE;
+    text-decoration: none;
+}
+
+footer a {
+    color: #F4F1DE;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #3D405B;
+    text-decoration: none;
+}
